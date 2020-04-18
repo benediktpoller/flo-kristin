@@ -169,14 +169,19 @@
     </div>
 </nav>
 <div id="start" class="page-header header-filter" data-parallax="true"
-     style="background-image: url('./assets/img/bg.png'); background-position-x: -259px;">
+     style="background-image: url('./assets/img/bg.png'); /*background-position-x: -259px;*/ background-repeat: no-repeat; background-color: #fff">
     <div class="container">
         <div class="row">
             <div class="col-md-8">
             </div>
-            <div class="col-md-4">
-                <h1 class="title" style="font-family: 'Pinyon Script', cursive; color: goldenrod;">Kristin &amp; Florian</h1>
-              <h2 class="title">Wir heiraten!</h2>
+            <div class="col-md-4" style="background: #25161680;
+    padding: 0.5em 1.5em;
+    text-align: center;
+    border-radius: 14px;
+    border: 3px solid goldenrod;">
+                <h1 class="title" style="font-family: 'Pinyon Script', cursive; color: goldenrod;">Kristin &amp;
+                    Florian</h1>
+                <h2 class="title" style="font-family: inherit">Wir heiraten!</h2>
                 <!--<h4>Every landing page needs a small description after the big bold title, that&apos;s why we added this text here. Add here all the information that can make you or your product create the first impression.</h4>
                 --><br>
                 <a href="#" target="_blank" class="btn btn-info btn-raised btn-lg">
@@ -226,7 +231,7 @@
                 <div class="features">
                     <div class="row">
                         <div class="col-md-6">
-                            <div class="card card-profile">
+                            <div class="carxd card-profile">
                                 <div class="card-body">
                                     <h4 class="card-title">Kirchliche Trauung</h4>
                                     <h6 class="card-category text-muted">Treffpunkt 13:30 Uhr, Trauung 14:00 Uhr</h6>
@@ -241,7 +246,7 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="card card-profile">
+                            <div class="carxd card-profile">
 
                                 <div class="card-body">
                                     <h4 class="card-title">Tafel und Feier</h4>
@@ -313,14 +318,16 @@
             </div>
 
 
-          <div id="" class="section text-center">
-            <h2 class="title">Geschenke</h2>
-            <p>
-              Für die Blumendekoration ist gesorgt und der Brautstrauß wird auch wunderschön sein. Deswegen braucht ihr bitte keine Blumen als Geschenk mitnehmen. Wenn ihr uns etwas Gutes tun wollt, freuen wir uns über einen Zuschuss zu unserer Hochzeitsreise.
-            </p>
+            <div id="" class="section text-center">
+                <h2 class="title">Geschenke</h2>
+                <p>
+                    Für die Blumendekoration ist gesorgt und der Brautstrauß wird auch wunderschön sein. Deswegen
+                    braucht ihr bitte keine Blumen als Geschenk mitnehmen. Wenn ihr uns etwas Gutes tun wollt, freuen
+                    wir uns über einen Zuschuss zu unserer Hochzeitsreise.
+                </p>
 
 
-          </div>
+            </div>
 
 
             <div class="section text-center" id="unterkunft">
@@ -384,20 +391,8 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <label class="bmd-label-floating">Vorname</label>
-                                        <input type="email" class="form-control">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label class="bmd-label-floating">Essenswunsch</label>
-                                        <input type="email" class="form-control">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label class="bmd-label-floating">Unverträglichkeiten</label>
-                                        <input type="email" class="form-control">
+                                        <label class="bmd-label-floating">Name</label>
+                                        <input type="text" class="form-control">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
@@ -406,10 +401,46 @@
                                         <input type="email" class="form-control">
                                     </div>
                                 </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="bmd-label-floating">Essenswunsch</label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="bmd-label-floating">Unverträglichkeiten</label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="form-group">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" value="">
+                                        Häckchen?
+                                    </label>
+                                </div>
+Essenswunsch
+                                <div class="radio">
+                                    <label>
+                                        <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1"
+                                               checked>
+                                        Essen 1
+                                    </label>
+                                </div>
+                                <div class="radio">
+                                    <label>
+                                        <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                                       Essen 2
+                                    </label>
+                                </div>
+
                             </div>
                             <div class="form-group">
                                 <label for="exampleMessage" class="bmd-label-floating">Sonstiges</label>
-                                <textarea type="email" class="form-control" rows="4" id="exampleMessage"></textarea>
+                                <textarea type="text" class="form-control" rows="4" id="exampleMessage" placeholder="Willst du uns sonst noch etwas mitteilen?"></textarea>
                             </div>
                             <div class="row">
                                 <div class="col-md-4 ml-auto mr-auto text-center">

@@ -14992,7 +14992,7 @@ footer .pull-center {
     height: 50px;
     font-size: 1.125rem;
     line-height: 30px;
-    padding: 0.625rem 0;
+    /*padding: 0.625rem 0;*/
 }
 
 .navbar.bg-primary {
@@ -15701,7 +15701,7 @@ h2.title {
 .description,
 .card-description,
 .footer-big p {
-    color: #999;
+    /*color: #999;*/
 }
 
 .text-warning {
