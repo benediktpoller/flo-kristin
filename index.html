@@ -7,7 +7,7 @@
     <link rel="icon" type="image/png" href="./assets/img/favicon.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
     <title>
-        K&amp;F
+        K &amp; F
     </title>
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no'
           name='viewport'/>
@@ -22,9 +22,39 @@
     <link href="./assets/demo/vertical-nav.css" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap" rel="stylesheet">
     <style>
+        @font-face {
+            font-family: 'Edwardian Script ITC';
+            src: url('EdwardianScriptITC.woff2') format('woff2'),
+            url('EdwardianScriptITC.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        h2 {
+            line-height: 1em;
+        }
+
+        .description, .card-description, .footer-big p {
+            /* color: #999; */
+            font-size: 18px;
+        }
+
+        .title, .card-title, .info-title, .footer-brand, .footer-big h5, .footer-big h4, .media .media-heading {
+            /* font-weight: 700; */
+            font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+        }
+
         .heart {
-            width: 2em;
-            margin: 0 2em;
+            width: 1.5em;
+            margin-bottom: 14px;
+        }
+
+        .heart-left {
+            margin-right: 1.5em;
+        }
+
+        .heart-right {
+            margin-left: 1.5em;
         }
 
         .navbar {
@@ -37,10 +67,33 @@
             background-color: #fff
         }
 
+        .card-profile, .card-testimonial {
+            margin-top: 0px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
         @media only screen and (max-width: 900px) {
             #start {
                 background-image: url('./assets/img/bg2.png');
             }
+            .heart-left {
+                margin-right: 0.1em;
+            }
+
+            .heart-right {
+                margin-left: 0.1em;
+            }
+        }
+
+        @media only screen and (max-width: 400px) {
+
+            .heart {
+                display: none;
+            }
+
         }
     </style>
 </head>
@@ -99,7 +152,7 @@
             <div class="col-md-4" style="
 
     text-align: center;">
-                <h1 class="title" style="font-family: 'Pinyon Script', cursive; color: goldenrod;">Kristin &amp;
+                <h1 class="title" style="font-family: 'Edwardian Script ITC', cursive; color: goldenrod;">Kristin &amp;
                     Florian</h1>
                 <h2 class="title" style="font-family: inherit">Wir heiraten!</h2>
                 <!--<h4>Every landing page needs a small description after the big bold title, that&apos;s why we added this text here. Add here all the information that can make you or your product create the first impression.</h4>
@@ -113,7 +166,7 @@
 </div>
 
 
-<div id="" class="main main-raised">
+<div class="main main-raised" style="border-radius: 0; margin: 0;">
     <div class="container">
         <div class="section text-center">
             <h2 class="title" style="">Wenn zwei Menschen zugleich anfangen,<br>einander zu lieben, das ist ein
@@ -121,14 +174,13 @@
             <div class="row">
                 <div class="col-md-12 ml-auto mr-auto">
 
-
                 </div>
                 <div class="col-md-4 ml-auto mr-auto">
 
                     <img src="kuf.png" style="max-width: 100%; max-height: 20em;">
                 </div>
                 <div class="col-md-8 ml-auto mr-auto">
-                    <h5 class="description">
+                    <h5 class="description" style="padding-top: 3em">
                         <span style="font-weight: bold">Wir sagen Ja!</span><br>
                         Es hat lange gedauert, bis wir uns gefunden haben. <br>
                         Dafür war es schnell klar, dass wir für
@@ -142,13 +194,16 @@
 
         </div>
     </div>
+</div>
 
 
-    <div id="hochzeit" class="main ">
+<div>
+    <div id="hochzeit" class="main" style="background-color: #d4af37">
         <div class="container">
             <div class="section text-center">
-                <h2 class="title" style=""><img src="hl.png" class="heart"> Hochzeit <img src="hl.png"
-                                                                                          class="heart"></h2>
+                <h2 class="title" style="color: #fff"><img src="heart-white.png" class="heart heart-left"> Hochzeit <img
+                        src="heart-white-r.png"
+                        class="heart heart-right"></h2>
 
                 <div class="row">
                     <div class="col-md-8 ml-auto mr-auto">
@@ -164,9 +219,9 @@
                             <div class="carxd card-profile">
                                 <div class="card-body">
                                     <h4 class="card-title">Kirchliche Trauung</h4>
-                                    <h6 class="card-category text-muted">Treffpunkt 13:30 Uhr, Trauung 14:00 Uhr</h6>
                                     <p class="card-description">
-                                        Pfarrkirche Krems-Stein St. Nikolaus<br>Steiner Landstraße 55<br>3500 Krems an
+                                        Treffpunkt 13:30&nbsp;Uhr, Trauung 14:00&nbsp;Uhr<br>
+                                        Pfarrkirche Krems-Stein St. Nikolaus<br>Steiner Landstraße&nbsp;55<br>3500 Krems an
                                         der
                                         Donau<br><br>
                                         Parkmöglichkeiten an der Steiner Donaulände
@@ -180,9 +235,9 @@
 
                                 <div class="card-body">
                                     <h4 class="card-title">Tafel und Feier</h4>
-                                    <h6 class="card-category text-muted">im Anschluss der Agape</h6>
                                     <p class="card-description">
-                                        Kloster UND&nbsp;Undstraße 6<br>3500 Krems an der Donau<br><br>Parkmöglichkeiten
+                                        im Anschluss der Agape<br>
+                                        Kloster UND<br>Undstraße&nbsp;6<br>3500 Krems an der Donau<br><br>Parkmöglichkeiten
                                         in
                                         der
                                         Undstraße
@@ -194,10 +249,15 @@
                     </div>
                 </div>
             </div>
-
-
+        </div>
+    </div>
+</div>
+<div>
+    <div id="" class="main" >
+        <div class="container">
             <div id="infos" class="section text-center">
-                <h2 class="title"><img src="hl.png" class="heart"> Infos <img src="hl.png" class="heart"></h2>
+                <h2 class="title"><img src="hl.png" class="heart heart-left"> Infos <img src="hr.png"
+                                                                                         class="heart heart-right"></h2>
                 <h3 class="title">Trauzeugen</h3>
                 <p>
                     Gerne könnt ihr mit Spielen oder Beiträgen unseren Tag einzigartig machen.<br>Meldet euch dazu bitte
@@ -211,7 +271,7 @@
                             <div class="team-player">
                                 <div class="card card-plain">
                                     <div class="col-md-6 ml-auto mr-auto">
-                                        <img src="./justo.jpg" alt="Thumbnail Image"
+                                        <img src="./justo.jpg" alt="Judith Stoiber"
                                              class="img-raised rounded-circle img-fluid">
                                     </div>
                                     <h4 class="card-title">Judith Stoiber<br>
@@ -230,7 +290,7 @@
                             <div class="team-player">
                                 <div class="card card-plain">
                                     <div class="col-md-6 ml-auto mr-auto">
-                                        <img src="./mapo.jpg" alt="Thumbnail Image"
+                                        <img src="./mapo.jpg" alt="Matthias Poller"
                                              class="img-raised rounded-circle img-fluid">
                                     </div>
                                     <h4 class="card-title">Matthias Poller<br>
@@ -261,7 +321,9 @@
 
 
             <div class="section text-center" id="unterkunft">
-                <h2 class="title"><img src="hl.png" class="heart"> Unterkünfte <img src="hl.png" class="heart"></h2>
+                <h2 class="title"><img src="hl.png" class="heart heart-left"> Unterkünfte <img src="hr.png"
+                                                                                               class="heart heart-right">
+                </h2>
                 <p>
                     Wir freuen uns über alle, die mit uns bis zur Sperrstunde feiern! <br>Wenn ihr dann nicht mehr
                     nachhause
@@ -311,7 +373,8 @@
 
 
             <div class="section section-contacts" id="galerie">
-                <h2 class="text-center title"><img src="hl.png" class="heart"> Galerie <img src="hl.png" class="heart">
+                <h2 class="text-center title"><img src="hl.png" class="heart heart-left"> Galerie <img src="hr.png"
+                                                                                                       class="heart heart-right">
                 </h2>
 
                 <div class="row">
@@ -325,8 +388,8 @@
 
 
             <div class="section section-contacts" id="anmeldung">
-                <h2 class="text-center title"><img src="hl.png" class="heart"> Anmeldung <img src="hl.png"
-                                                                                              class="heart">
+                <h2 class="text-center title"><img src="hl.png" class="heart heart-left"> Anmeldung <img src="hr.png"
+                                                                                                         class="heart heart-right">
                 </h2>
                 <div class="row">
                     <div class="col-md-8 ml-auto mr-auto">

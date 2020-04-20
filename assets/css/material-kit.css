@@ -15694,8 +15694,13 @@ small,
 
 h2.title {
     margin-bottom: 1rem;
-    font-family: 'Pinyon Script', cursive;
+    /*font-family: 'Pinyon Script', cursive;*/
     color: goldenrod;
+
+    font-family: 'Edwardian Script ITC';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 3.25rem;
 }
 
 .description,
