@@ -1,11 +1,23 @@
 # TODO
+- countdown
 - Hintergrundbild versch. Größen mit Text fix auf Bild
     - Kristin & Florian ein wenig weiter rauf
-- jede 2 section gold hintergrund
+
 - anmeldung noch anders
-- 2-3 weitere Unterkünfte adressen
-- hias wegen bild fragen
 - judith / hias bild gleiche abmessungen
-- google maps icons bei hochzeits location direkt drunter
-- section infos abstände zui gro bei trauzeugen und geschenke
 - Ladezeiten / Bildgrössen 
+
+
+
+
+(x) google maps icons bei hochzeits location direkt drunter
+(x) section infos abstände zui gro bei trauzeugen und geschenke
+(x) jede 2 section gold hintergrund
+(x) 2-3 weitere Unterkünfte adressen
+(x) hias wegen bild fragen
+
+- überall das  gleich blau sowie tafel und trauung
+- kein lila
+- form label größer 18px
+- form button
+- passwort liebe

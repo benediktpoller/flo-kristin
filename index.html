@@ -95,6 +95,50 @@
             }
 
         }
+
+
+        .gold a, .gold a:hover, .gold a:visited {
+            color: white;
+            text-decoration: underline;
+        } 
+
+        h2.title {
+            text-align: center;
+        } 
+
+        .gold {
+            background-color: #d4af37;
+        }
+
+        .gold input, .gold label {
+            color: #fff;
+        }
+
+        .is-focused .bmd-label-floating, .is-filled .bmd-label-floating {
+            font-size: 18;
+        }
+
+.bmd-form-group label,
+        .bmd-form-group:not(.has-success):not(.has-danger) [class^='bmd-label'].bmd-label-floating, .bmd-form-group:not(.has-success):not(.has-danger) [class*=' bmd-label'].bmd-label-floating {
+            color: #fff;
+        } 
+
+        .bmd-form-group .radio label, .bmd-form-group label.radio-inline, .bmd-form-group .checkbox label, .bmd-form-group label.checkbox-inline, .bmd-form-group .switch label{
+    margin-top: 1em;
+    font-size: 18px;
+}
+
+.form-control, .is-focused .form-control {
+    background-image: linear-gradient(to top, #d8e2f0 2px, rgba(156, 39, 176, 0) 2px), linear-gradient(to top, #d2d2d2 1px, rgba(210, 210, 210, 0) 1px);
+}
+
+.btn.btn-primary {
+    color: #d4af37;
+    background-color: #d8e2f0;
+    border-color: #d8e2f0;
+    box-shadow: 0 2px 2px 0 rgba(156, 39, 176, 0.14), 0 3px 1px -2px rgba(156, 39, 176, 0.2), 0 1px 5px 0 rgba(156, 39, 176, 0.12);
+}
+
     </style>
 </head>
 
@@ -198,7 +242,7 @@
 
 
 <div>
-    <div id="hochzeit" class="main" style="background-color: #d4af37">
+    <div id="hochzeit" class="main gold" style="background-color: #d4af37">
         <div class="container">
             <div class="section text-center">
                 <h2 class="title" style="color: #fff"><img src="heart-white.png" class="heart heart-left"> Hochzeit <img
@@ -238,15 +282,15 @@
                                     <p class="card-description">
                                         im Anschluss der Agape<br>
                                         Kloster UND<br>Undstraße&nbsp;6<br>3500 Krems an der Donau<br><br>Parkmöglichkeiten
-                                        in
-                                        der
-                                        Undstraße
+                                        in der Undstraße
                                     </p>
                                 </div>
                             </div>
                         </div>
 
                     </div>
+
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d3534.2962218286657!2d15.584614125032974!3d48.403653992201704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e2!4m5!1s0x477284463f5d84a3%3A0x38626e6e63c769d!2sKloster%20Und%2C%20Undstra%C3%9Fe%206%2C%203500%20Krems%20an%20der%20Donau!3m2!1d48.4067349!2d15.590647899999999!4m5!1s0x47728436544399b7%3A0x81fb4950c82825e!2sPfarre%20Stein%2FDonau%2C%20Steiner%20Landstra%C3%9Fe%2055%2C%203500%20Krems%20an%20der%20Donau!3m2!1d48.4020618!2d15.5823685!5e0!3m2!1sde!2sat!4v1591539340292!5m2!1sde!2sat" width="1000" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                 </div>
             </div>
         </div>
@@ -268,7 +312,7 @@
                 <div class="team">
                     <div class="row">
                         <div class="col-md-6">
-                            <div class="team-player">
+                            <div >
                                 <div class="card card-plain">
                                     <div class="col-md-6 ml-auto mr-auto">
                                         <img src="./justo.jpg" alt="Judith Stoiber"
@@ -287,7 +331,7 @@
                         </div>
 
                         <div class="col-md-6">
-                            <div class="team-player">
+                            <div class="">
                                 <div class="card card-plain">
                                     <div class="col-md-6 ml-auto mr-auto">
                                         <img src="./mapo.jpg" alt="Matthias Poller"
@@ -318,12 +362,17 @@
 
 
             </div>
-
-
+</div>
+</div>
+            <div class="main gold" style="background-color: #d4af37">
+        <div class="container">
             <div class="section text-center" id="unterkunft">
-                <h2 class="title"><img src="hl.png" class="heart heart-left"> Unterkünfte <img src="hr.png"
-                                                                                               class="heart heart-right">
-                </h2>
+                <h2 class="title" style="color: #fff"><img src="heart-white.png" class="heart heart-left"> 
+                Unterkünfte <img
+                        src="heart-white-r.png"
+                        class="heart heart-right"></h2>
+
+           
                 <p>
                     Wir freuen uns über alle, die mit uns bis zur Sperrstunde feiern! <br>Wenn ihr dann nicht mehr
                     nachhause
@@ -335,17 +384,22 @@
                     Verfügbarkeit der Zimmer begrenzt. Also reserviert bald.
 
                 </p>
+                <p>
+                In Krems Stein gibt es einige kleine Pensionen die keine eigene Hompage haben. 
+                
+                Am besten ihr informiert euch im <a href="https://krems.info">Toursismusbüro Krems</a>
+                </p>
 
                 <div class="team">
                     <div class="row">
                         <div class="col-md-6">
-                            <div class="team-player">
+                            <div class="">
                                 <div class="card card-plain">
                                     <h4 class="card-title">Zum goldenen Engel
                                     </h4>
                                     <div class="card-body">
                                         <p class="card-description">
-                                            Wiener Straße 41<br>3500 Krems an der Donau<br>Telefon: 02732 82067<br><br>
+                                            Wiener Straße 41<br>3500 Krems an der Donau<br>Telefon: 02732 82067<br>
                                             <a href="http://www.hotel-ehrenreich-krems.at/">http://www.hotel-ehrenreich-krems.at/</a>
                                         </p>
                                     </div>
@@ -354,14 +408,48 @@
                         </div>
 
                         <div class="col-md-6">
-                            <div class="team-player">
+                            <div class="">
                                 <div class="card card-plain">
                                     <h4 class="card-title">Parkhotel Krems
                                     </h4>
                                     <div class="card-body">
                                         <p class="card-description">Edmund-Hofbauer-Straße 19<br>3500 Krems an der Donau<br>
-                                            Telefon: 02732 87565<br><br>
+                                            Telefon: 02732 87565<br>
                                             <a href="https://www.parkhotel-krems.at/">https://www.parkhotel-krems.at/</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="">
+                                <div class="card card-plain">
+                                    <h4 class="card-title">Hotel "Unter den Linden"
+                                    </h4>
+                                    <div class="card-body">
+                                        <p class="card-description">
+                                            Schillerstraße 5<br>3500 Krems an der Donau<br>Telefon: 02732 82115<br>
+                                            <a href="https://udl.at/">https://udl.at/</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="">
+                                <div class="card card-plain">
+                                    <h4 class="card-title">Steigenberger Hotel &amp; Spa Krems
+                                    </h4>
+                                    <div class="card-body">
+                                        <p class="card-description">Am Goldberg 2<br>3500 Krems an der Donau<br>
+                                            Telefon: 02732 71010<br>
+                                            <a href="https://www.steigenberger.com">https://www.steigenberger.com</a>
                                         </p>
                                     </div>
                                 </div>
@@ -371,6 +459,11 @@
                 </div>
             </div>
 
+            </div>
+</div>
+</div>
+            <div class="main">
+        <div class="container">
 
             <div class="section section-contacts" id="galerie">
                 <h2 class="text-center title"><img src="hl.png" class="heart heart-left"> Galerie <img src="hr.png"
@@ -386,11 +479,17 @@
                 </div>
             </div>
 
+            </div>
+</div>
+</div>
+            <div class="main" style="background-color: #d4af37">
+        <div class="container">
 
             <div class="section section-contacts" id="anmeldung">
-                <h2 class="text-center title"><img src="hl.png" class="heart heart-left"> Anmeldung <img src="hr.png"
-                                                                                                         class="heart heart-right">
-                </h2>
+            <h2 class="title" style="color: #fff"><img src="heart-white.png" class="heart heart-left"> 
+                Anmeldung <img
+                        src="heart-white-r.png"
+                        class="heart heart-right"></h2>
                 <div class="row">
                     <div class="col-md-8 ml-auto mr-auto">
 
@@ -400,7 +499,7 @@
                         </h4>
                         <form class="contact-form">
                             <div class="row">
-                                <div class="col-md-6">
+                                <div class="col-md-12">
                                     <div class="form-group">
                                         <label class="bmd-label-floating">Name</label>
                                         <input type="text" class="form-control">
@@ -408,23 +507,35 @@
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <label class="bmd-label-floating">Email</label>
-                                        <input type="email" class="form-control">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
                                         <label class="bmd-label-floating">Essenswunsch</label>
-                                        <input type="text" class="form-control">
+
+                                        <label class="radio-inline">
+                                        <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Fleisch
+                                        </label>
+                                        <label class="radio-inline">
+                                        <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> Vegetarisch
+                                        </label>
+                                        <label class="radio-inline">
+                                        <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> Vegan
+                                        </label>
+
+                                        <label class="radio-inline">
+                                        <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> Kindermenü
+                                        </label>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label class="bmd-label-floating">Unverträglichkeiten</label>
-                                        <input type="text" class="form-control">
+
+                                        <label class="radio-inline">
+                                        <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Laktose
+                                        </label>
+                                        <label class="radio-inline">
+                                        <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> Gluten
+                                        </label>
                                     </div>
                                 </div>
-
                             </div>
                             <!--
                             <div class="form-group">
